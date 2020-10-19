@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/options"
+        android:title="Menu"
+        app:showAsAction="ifRoom"/>
+    <item android:id="@+id/viewScoreboard"
+        android:title="Scoreboard"
+        app:showAsAction="never"/>
+    <item android:id="@+id/selectPlayerX"
+        android:title="Select Player X"
+        app:showAsAction="never"/>
+    <item android:id="@+id/selectPlayerO"
+        android:title="Select Player O"
+        app:showAsAction="never"/>
+    <item android:id="@+id/addPlayer"
+        android:title="Add Player"
+        app:showAsAction="never"/>
+    <item android:id="@+id/newGame"
+        android:title="New Game"
+        app:showAsAction="never" />
+    <item android:id="@+id/returnToGame"
+        android:title="Return To Game"
+        app:showAsAction="never"/>
+</menu>
